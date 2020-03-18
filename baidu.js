@@ -21,7 +21,7 @@ $(function(){
             
             
             // if(!/^[a-z-A-Z]{1}([a-z-A-Z0-9]|[._]){4,15}$/.test($name.val()) && $name.val()!=''){
-                 if(!/^[a-zA-Z\u4e00-\u9fa5]{1}[a-zA-Z0-9_\u4e00-\u9fa5]{3,9}$/.test($name.val())){
+                 if(!/^[a-zA-Z\u4e00-\u9fa5]{1}[a-zA-Z0-9_\u4e00-\u9fa5]{3,9}$/.test($name.val()) &&$phone.val()!==''){
                 $msgname.html('用户名仅支持中英文、数字和下划线且不能为纯数字')
                 $name.select();
                 
